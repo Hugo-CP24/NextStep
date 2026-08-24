@@ -9,7 +9,7 @@ function Header({ onAddTask }) {
   return (
     <header className="bg-white/70 backdrop-blur-md border-b border-gray-200 px-6 h-20 flex items-center justify-between fixed top-0 left-0 right-0 z-50">
       <div className="flex items-center gap-2">
-        <img src="{LogoWeb}" alt="NextStep" className="w-12 h-12" />
+        <img src={LogoWeb} alt="NextStep" className="w-12 h-12" />
         <div>
           <h1 className="text-[25px] font-bold text-gray-900">NextStep</h1>
           <p className="text-xs text-gray-400">Your intelligent task manager</p>
