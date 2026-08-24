@@ -1,6 +1,6 @@
 import { Plus } from "lucide-react";
 import useTaskStore from "../store/useTaskStore";
-import LogoWeb from '../public/logoWeb.svg';
+import LogoWeb from '/logoWeb.svg';
 
 function Header({ onAddTask }) {
   const filter = useTaskStore((state) => state.filter);
